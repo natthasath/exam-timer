@@ -1,0 +1,60 @@
+{
+  "name": "exam-timer",
+  "productName": "Exam Timer",
+  "version": "1.0.0",
+  "description": "นาฬิกาจับเวลาสำหรับห้องสอบ - Countdown Timer for Exam Rooms",
+  "main": "src/main.js",
+  "author": {
+    "name": "Natthasath Saksupanara",
+    "email": "natthasath.sak@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:win": "electron-builder --win",
+    "build:portable": "electron-builder --win portable",
+    "build:installer": "electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.natthasath.examtimer",
+    "productName": "Exam Timer",
+    "copyright": "Copyright © 2024 Natthasath Saksupanara",
+    "directories": {
+      "output": "dist",
+      "buildResources": "assets"
+    },
+    "files": [
+      "src/**/*",
+      "assets/**/*"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64", "ia32"]
+        },
+        {
+          "target": "portable",
+          "arch": ["x64"]
+        }
+      ],
+      "publisherName": "Natthasath Saksupanara"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Exam Timer",
+      "license": "LICENSE.txt"
+    },
+    "portable": {
+      "artifactName": "ExamTimer-Portable-${version}.${ext}"
+    }
+  }
+}

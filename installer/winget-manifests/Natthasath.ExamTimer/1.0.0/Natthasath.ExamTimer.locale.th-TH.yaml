@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: Natthasath.ExamTimer
+PackageVersion: 1.0.0
+PackageLocale: th-TH
+Publisher: Natthasath Saksupanara
+PublisherUrl: https://github.com/natthasath
+PublisherSupportUrl: https://github.com/natthasath/exam-timer/issues
+Author: Natthasath Saksupanara
+PackageName: Exam Timer
+PackageUrl: https://github.com/natthasath/exam-timer
+License: MIT
+LicenseUrl: https://github.com/natthasath/exam-timer/blob/main/LICENSE
+Copyright: Copyright © 2024 Natthasath Saksupanara
+ShortDescription: นาฬิกาจับเวลาสำหรับห้องสอบ
+Description: |-
+  Exam Timer เป็นแอปพลิเคชันนาฬิกาจับเวลาสำหรับใช้ในห้องสอบ
+  
+  คุณสมบัติ:
+  - โหมดนับถอยหลัง (Countdown) สำหรับการสอบ
+  - โหมดจับเวลา (Stopwatch) สำหรับการจับเวลาทั่วไป
+  - ตั้งเวลาได้ตั้งแต่วินาทีถึงหลายชั่วโมง
+  - มี Preset เวลาสำเร็จรูป
+  - แสดงเวลาปัจจุบัน
+  - เสียงแจ้งเตือนเมื่อหมดเวลา
+  - รองรับ Fullscreen
+  - ทำงาน Offline ได้ 100%
+Moniker: examtimer
+Tags:
+  - timer
+  - countdown
+  - stopwatch
+  - exam
+  - education
+  - clock
+  - offline
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
