@@ -46,8 +46,7 @@
       "publisherName": "Natthasath Saksupanara"
     },
     "nsis": {
-      "oneClick": false,
-      "allowToChangeInstallationDirectory": true,
+      "oneClick": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
       "shortcutName": "Exam Timer",
