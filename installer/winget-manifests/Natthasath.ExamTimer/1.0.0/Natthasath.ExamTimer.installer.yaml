@@ -18,9 +18,9 @@ UpgradeBehavior: install
 Installers:
   - Architecture: x64
     InstallerUrl: https://github.com/natthasath/exam-timer/releases/download/v1.0.0/Exam.Timer.Setup.1.0.0.exe
-    InstallerSha256: # ใส่ SHA256 hash หลัง build เสร็จ (ใช้คำสั่ง: certutil -hashfile <filename> SHA256)
+    InstallerSha256: e8ed161a6bd6f0b5aebfb478994e1943b431571721a5ca04147c4b82e8c51cda
   - Architecture: x86
     InstallerUrl: https://github.com/natthasath/exam-timer/releases/download/v1.0.0/Exam.Timer.Setup.1.0.0.exe
-    InstallerSha256: # ใส่ SHA256 hash หลัง build เสร็จ
+    InstallerSha256: e8ed161a6bd6f0b5aebfb478994e1943b431571721a5ca04147c4b82e8c51cda
 ManifestType: installer
 ManifestVersion: 1.6.0
