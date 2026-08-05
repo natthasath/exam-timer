@@ -61,4 +61,4 @@ Build output goes to `dist/`:
 
 ### 📜 License
 
-This project is licensed under the [MIT License](LICENSE.txt).
+This project is licensed under the [MIT License](LICENSE).

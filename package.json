@@ -50,7 +50,7 @@
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
       "shortcutName": "Exam Timer",
-      "license": "LICENSE.txt"
+      "license": "LICENSE"
     },
     "portable": {
       "artifactName": "ExamTimer-Portable-${version}.${ext}"
