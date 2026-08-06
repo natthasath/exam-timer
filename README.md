@@ -16,22 +16,13 @@ Exam Timer is a countdown and stopwatch app built for exam rooms. It runs fully 
 - 📴 **Fully offline** — no internet connection required
 - 📌 **Always on top** — keeps the window pinned above others
 
+---
+
 ### 🚀 Installation
 
 ```shell
 winget install Natthasath.ExamTimer
 ```
-
-### 🏆 Usage
-
-| Key | Action |
-|---|---|
-| `Space` | Start / Pause / Resume |
-| `Esc` | Reset |
-| `F` or `F11` | Toggle fullscreen |
-| `Ctrl +` | Zoom in |
-| `Ctrl -` | Zoom out |
-| `Ctrl 0` | Reset zoom |
 
 ### ⚙️ Development
 
@@ -59,6 +50,29 @@ Build output goes to `dist/`:
 4. Update the hash in `installer/winget-manifests/Natthasath.ExamTimer/1.0.0/Natthasath.ExamTimer.installer.yaml`.
 5. Fork [microsoft/winget-pkgs](https://github.com/microsoft/winget-pkgs), copy the manifest folder to `manifests/n/Natthasath/ExamTimer/1.0.0/`, and submit a Pull Request.
 
+> [!IMPORTANT]
+> The SHA256 hash in the manifest must exactly match the uploaded installer. A mismatch fails winget's manifest validation and blocks the Pull Request.
+
+---
+
+### 🏆 Usage
+
+| Key | Action |
+|---|---|
+| `Space` | Start / Pause / Resume |
+| `Esc` | Reset |
+| `F` or `F11` | Toggle fullscreen |
+| `Ctrl +` | Zoom in |
+| `Ctrl -` | Zoom out |
+| `Ctrl 0` | Reset zoom |
+
+---
+
 ### 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
+
+### ✉️ Contact
+
+**Natthasath Saksupanara** — Computer Technical Officer, NIDA  
+natthasath.sak@gmail.com
